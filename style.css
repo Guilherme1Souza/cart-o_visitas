@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #ECE9FD;
+    
+    padding: 6.0rem 2.3rem 6.6rem;
+}
+
+main {
+    max-width: 20.0rem;
+    
+    margin: 0 auto;
+}
+
+main img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    width: 20.3rem;
+    height: 17.9rem;
+    
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.6rem;
+    font-weight: 400;
+    
+    color: #080034;
+    
+    text-align: center;
+
+    margin: 4.0rem 0 2.7rem;
+}
+
+h1 span {
+    color: #4B9BE4;
+    
+    font-size: 2.6rem;
+    font-weight: 600;
+
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    
+    gap: 2.8rem;
+    
+    margin-bottom: 2.8rem;
+}
+
+.social a {
+    width: 18.0rem;
+    height: 3.9rem;
+    
+    border-radius: 8px;
+    
+    background: #327EC3;
+
+}
+
+
+a {
+    color: #D9D9D9;
+
+    text-align: center;
+    padding: 1.0rem;
+
+    font-family: "Montserrat", sans-serif;
+
+    font-size: 1.6rem;
+    font-weight: 500;
+
+    text-decoration: none;
+}
+
+.social a:hover {
+    background: #135b9f;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    line-height: 2.0rem;
+    font-size: 2.0rem;
+    font-weight: 300;
+
+    font-family: "Epilogue", sans-serif;
+
+    width: 20.0rem;
+    height: 41.5rem;
+
+    color: #080034;
+
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: #ECE9FD;
+        
+        display: flex;
+        
+        height: 100vh;
+        
+        padding: 3.0rem;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        
+        max-width: 1020px;
+        
+        gap: 9.0rem;
+    }
+
+    .perfil {
+        margin-right: 6.0rem;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+        
+        margin-left: 6.0rem;
+    }
+
+    p {
+        width: 55.6rem;
+        height: 17.4rem;
+        
+        margin-bottom: 6.0rem;
+
+        font-size: 2.4rem;
+        line-height: 2.5rem;
+  
+    }
+
+    .social a {
+        background: #327EC3;
+        width: 16.0rem;
+        height: 3.9rem;
+        
+        border-radius: 8px;
+
+        margin-left: 6.0rem;
+    
+    }
+}
