@@ -35,8 +35,8 @@ main {
     box-sizing: content-box;
 }
 
-main img {
-    max-width: 100%;
+.perfil img {
+    width: 24rem;
 }
 
 h1 {
